@@ -1,0 +1,63 @@
+{
+
+    "ticker": "",
+    "open_date": "yyyy-mm-ddThh:mm:00.000Z",
+    "close_date": "yyyy-mm-ddThh:mm:00.000Z",
+    "profit": 0.0,
+    "time_frame": "daily,weekly,monthly,yearly",
+    "target_price": 0,
+    "stop_loss": "21_ema",
+    "option_info": 
+    {
+        "ticker": "",
+        "strike_price":"",
+        "experation_date": "yyy-mm-dd",
+        "type": "CALL"
+    },
+    "confluences": 
+    {
+        "daily":
+        {
+            "stacked_emas" : true, 
+            "broke_trendline": false,
+            "touching_21_ema":true,
+            "orange_squeeze": 0, 
+            "red_squeeze": 0,
+            "slow_buy_signal": 0,
+            "obv_increasing": 0
+        },
+        "weekly": 
+        {
+            "stacked_emas" : true, 
+            "broke_trendline": false,
+            "touching_21_ema":true,
+            "orange_squeeze": 0, 
+            "red_squeeze": 0,
+            "slow_buy_signal": 0,
+            "obv_increasing": 0
+        },
+        "monthly": 
+        {
+            "stacked_emas" : true, 
+            "broke_trendline": false,
+            "touching_21_ema":true,
+            "orange_squeeze": 0, 
+            "red_squeeze": 0,
+            "slow_buy_signal": 0,
+            "obv_increasing": 0
+        }
+
+    },
+    "transactions": 
+    [
+        {
+            "date" : "yyyy-mm-ddThh:mm:00.000Z",
+            "amount": 0,
+            "price": 0.0,
+            "summary": ""
+        }
+    ],
+    "summary": ""
+
+
+}

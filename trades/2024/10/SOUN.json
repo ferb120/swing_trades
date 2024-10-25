@@ -1,0 +1,63 @@
+{
+
+    "ticker": "SOUN",
+    "open_date": "2024-10-18T12:56:00.000Z",
+    "close_date": "yyyy-mm-ddThh:mm:00.000Z",
+    "profit": 0,
+    "time_frame": "weekly",
+    "target_price": 7.53,
+    "stop_loss": "21_ema",
+    "option_info": 
+    {
+        "ticker": "SOUN",
+        "strike_price":7,
+        "experation_date": "2024-12-20",
+        "type": "CALL"
+    },
+    "confluences": 
+    {
+        "daily":
+        {
+            "stacked_emas" : true, 
+            "broke_trendline": false,
+            "touching_21_ema":false,
+            "orange_squeeze": 0, 
+            "red_squeeze": 0,
+            "slow_buy_signal": 6,
+            "obv_increasing": 1
+        },
+        "weekly": 
+        {
+            "stacked_emas" : true, 
+            "broke_trendline": true,
+            "touching_21_ema":false,
+            "orange_squeeze": 0, 
+            "red_squeeze": 12,
+            "slow_buy_signal": 1,
+            "obv_increasing": 2
+        },
+        "monthly": 
+        {
+            "stacked_emas" : false, 
+            "broke_trendline": false,
+            "touching_21_ema":false,
+            "orange_squeeze": 0, 
+            "red_squeeze": 0,
+            "slow_buy_signal": 3,
+            "obv_increasing": 1
+        }
+
+    },
+    "transactions": 
+    [
+        {
+            "date" : "2024-10-18T12:56:00.000Z",
+            "amount": 25,
+            "price": 0.28,
+            "summary": "Opened position because it broke above horizontal trendline @5.32. Current day also closed with strong bullish candle with significant volume."
+        }
+    ],
+    "summary": ""
+
+
+}

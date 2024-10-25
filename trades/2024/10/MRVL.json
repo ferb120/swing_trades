@@ -1,0 +1,69 @@
+{
+
+    "ticker": "MRVL",
+    "open_date": "2024-10-11T12:55:00.000Z",
+    "close_date": "2024-10-15T09:04:00.000Z",
+    "profit": 939,
+    "time_frame": "weekly",
+    "target_price": 82.68,
+    "stop_loss": "21_ema",
+    "option_info": 
+    {
+        "ticker": "MRVL",
+        "strike_price":80,
+        "experation_date": "2024-12-20",
+        "type": "CALL"
+    },
+    "confluences": 
+    {
+        "daily":
+        {
+            "stacked_emas" : true, 
+            "broke_trendline": false,
+            "touching_21_ema":true,
+            "orange_squeeze": 5, 
+            "red_squeeze": 19,
+            "slow_buy_signal": 5,
+            "obv_increasing": 1
+        },
+        "weekly": 
+        {
+            "stacked_emas" : true, 
+            "broke_trendline": false,
+            "touching_21_ema":false,
+            "orange_squeeze": 5, 
+            "red_squeeze": 24 ,
+            "slow_buy_signal": 8,
+            "obv_increasing": 2
+        },
+        "monthly": 
+        {
+            "stacked_emas" : true, 
+            "broke_trendline": false,
+            "touching_21_ema":false,
+            "orange_squeeze": 0, 
+            "red_squeeze": 0,
+            "slow_buy_signal": 1,
+            "obv_increasing": 1
+        }
+
+    },
+    "transactions": 
+    [
+        {
+            "date" : "2024-10-11T12:55:00.000Z",
+            "amount": 3,
+            "price": 4.20,
+            "summary": "Opened position becuase both weekly and daily time frames had a squeeze with slow buy signals. On the daily time frame the 21 EMA was being held very strongly"
+        },
+        {
+            "date" : "2024-10-15T09:04:00.000Z",
+            "amount": -3,
+            "price": 7.33,
+            "summary": "Sold entire position. Price hit my target price while I was asleep and then retraced down. Saw my position while I was on my way to work. Closed it out becuase I was scared it would come down even further."
+        }
+    ],
+    "summary": "Need to make sure I create the conditional orders as soon as I open the positions with the target price as the trigger."
+
+
+}
